@@ -1,4 +1,4 @@
-package Encapsulation;
+package OOPs.Encapsulation;
 class Candidates{
     private String name;
     private int usn;
@@ -46,5 +46,5 @@ public class encap {
         System.out.println(c1.getName());
     }
 }
-//In Encapsulation the data members and member functions are kept private.
+//In OOPs.Encapsulation the data members and member functions are kept private.
 // It can be accessed through Getters and Setters.

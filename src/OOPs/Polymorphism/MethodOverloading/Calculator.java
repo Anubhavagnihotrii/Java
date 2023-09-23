@@ -1,4 +1,4 @@
-package Polymorphism.MethodOverloading;
+package OOPs.Polymorphism.MethodOverloading;
 class  add {
 int addNumbers(int a , int b)
 {
@@ -20,7 +20,7 @@ public class Calculator {
 }
 
 
-//Compile-time (Static) Polymorphism:
+//Compile-time (Static) OOPs.Polymorphism:
 //
 //        Also known as method overloading.
 //        Occurs when two or more methods in the same class have the same name but different parameters (number, type, or order).

@@ -1,4 +1,4 @@
-package Abstraction;
+package OOPs.Abstraction;
 
 interface activity{
 
@@ -38,7 +38,7 @@ public class interfacesInJava {
 }
 
 
-// Interfaces in java are used to achieve Abstraction and Multiple Inheritance.
+// Interfaces in java are used to achieve OOPs.Abstraction and Multiple OOPs.Inheritance.
 
 // All the methods inside the Interface are declared with empty body, and all the fields are public, static and final by default.
 

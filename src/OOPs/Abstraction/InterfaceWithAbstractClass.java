@@ -1,4 +1,4 @@
-package Abstraction;
+package OOPs.Abstraction;
 
 interface mobiles{
     void apple();

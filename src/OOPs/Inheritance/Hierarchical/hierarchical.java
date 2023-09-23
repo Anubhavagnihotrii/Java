@@ -1,4 +1,4 @@
-package Inheritance.Hierarchical;
+package OOPs.Inheritance.Hierarchical;
 
 //Superclass
 class Animal {

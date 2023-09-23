@@ -1,4 +1,4 @@
-package Inheritance.Multilevel;
+package OOPs.Inheritance.Multilevel;
 
 class animal{
     void legs()

@@ -1,6 +1,6 @@
-package Inheritance.Single;
+package OOPs.Inheritance.Single;
 
-//Single Inheritance
+//Single OOPs.Inheritance
 
 class animal{
     void speak()

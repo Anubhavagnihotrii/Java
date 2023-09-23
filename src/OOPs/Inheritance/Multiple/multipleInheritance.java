@@ -1,4 +1,4 @@
-package Inheritance.Multiple;
+package OOPs.Inheritance.Multiple;
 
 // Java supports multiple inheritance through interfaces. A class can implement multiple interfaces.
 // Interface names start with an uppercase letter by convention.
