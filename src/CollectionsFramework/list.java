@@ -50,6 +50,5 @@ public class list {
 //        Here we used the iterators because they are safe.  Iterators provide a safe way to remove elements from a collection while iterating over it using the remove() method. This ensures that you can remove elements without causing issues with the iteration process.
 //        we'll see more about the iterators in a separate package.
 
-
     }
 }
