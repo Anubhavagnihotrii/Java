@@ -67,6 +67,6 @@ If you have ideas, suggestions, or feedback on how to improve this repository, p
 
 ## License
 
-This repository is open-source and available under the MIT License. Please review the [LICENSE](LICENSE) file for more details.
+This repository is open-source and available under the MIT License. Please review the [License.md](LICENSE) file for more details.
 
 Happy coding and learning Java! 🚀
