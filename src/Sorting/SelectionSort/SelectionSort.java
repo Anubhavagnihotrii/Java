@@ -1,11 +1,10 @@
 package Sorting.SelectionSort;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int arr[]={99,4,63,2,1,3,0,1,2};
+        int[] arr ={99,4,63,2,1,3,0,1,2};
 
         System.out.println("Before Sorting "+ Arrays.toString(arr));
 
@@ -22,6 +21,5 @@ public class SelectionSort {
             }
         }
         System.out.println("After Sorting "+ Arrays.toString(arr));
-
     }
 }
