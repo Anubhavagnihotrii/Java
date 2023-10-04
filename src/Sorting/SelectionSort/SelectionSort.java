@@ -1,8 +1,14 @@
-package Sorting.BubbleSort;
+package Sorting.SelectionSort;
 
-public class bubbleSort {
+import java.sql.SQLOutput;
+import java.util.Arrays;
+
+public class SelectionSort {
     public static void main(String[] args) {
         int arr[]={99,4,63,2,1,3,0,1,2};
+
+        System.out.println("Before Sorting "+ Arrays.toString(arr));
+
         for(int i=0;i< arr.length;i++)
         {
             for(int j=i+1;j<arr.length;j++)
@@ -15,9 +21,7 @@ public class bubbleSort {
                 }
             }
         }
-        for(int i=0;i<arr.length;i++)
-        {
-            System.out.print(arr[i]+" ");
-        }
+        System.out.println("After Sorting "+ Arrays.toString(arr));
+
     }
 }
