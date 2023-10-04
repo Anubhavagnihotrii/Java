@@ -1,23 +1,29 @@
 package Sorting.BubbleSort;
-
-public class bubbleSort {
+public class BubbleSort {
     public static void main(String[] args) {
-        int arr[]={99,4,63,2,1,3,0,1,2};
-        for(int i=0;i< arr.length;i++)
-        {
-            for(int j=i+1;j<arr.length;j++)
-            {
-                if(arr[i]<arr[j])
-                {
-                    int temp=arr[i];
-                    arr[i]=arr[j];
-                    arr[j]=temp;
+        int[] a = {99,4,63,2,1,3,0,1,2};
+        int n = a.length;
+        System.out.println("Before sorting array elements are:");
+        display(a, n);
+        System.out.println("\nAfter sorting array elements are:");
+        bubble(a, n);
+        display(a, n);
+    }
+    public static void bubble(int[] a, int n) {
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (a[j] < a[j + 1]) {
+                    int temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
                 }
             }
         }
-        for(int i=0;i<arr.length;i++)
-        {
-            System.out.print(arr[i]+" ");
+    }
+    public static void display(int[] a, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(a[i] + " ");
         }
     }
+
 }
