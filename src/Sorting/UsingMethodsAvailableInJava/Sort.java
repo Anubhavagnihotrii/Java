@@ -2,7 +2,7 @@ package Sorting.UsingMethodsAvailableInJava;
 
 import java.util.Arrays;
 
-public class sort {
+public class Sort {
     public static void main(String[] args) {
         int[] arr ={90,1,75,4,6,1,3,4,2,999,34,54,56,91};
 

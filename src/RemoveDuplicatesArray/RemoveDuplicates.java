@@ -2,7 +2,7 @@ package RemoveDuplicatesArray;
 
 import java.util.Arrays;
 
-public class removeDuplicates {
+public class RemoveDuplicates {
     public static void main(String[] args) {
         int[] arr = {1,2,3,3,3,4,5,5,5,6,6,7,8};
         int[] brr = new int[arr.length];
