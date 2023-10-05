@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 //n Java, a HashSet is a part of the Java Collections Framework and is one of the implementations of the Set interface. It represents a collection of unique elements, meaning that it cannot contain duplicate values.
 
-public class hashSetsInCollections {
+public class HashSetsInCollections {
     public static void main(String[] args) {
         // Create a HashSet of strings
         HashSet<String> fruits = new HashSet<>();

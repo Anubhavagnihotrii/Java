@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class example {
+public class Example {
     public static void main(String[] args) {
         // Given an array with duplicate elements
         int[] arr = {1, 2, 3, 3, 3, 4, 5, 5, 5, 6, 6, 7, 8};

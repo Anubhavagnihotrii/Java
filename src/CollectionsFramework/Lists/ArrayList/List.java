@@ -3,7 +3,7 @@ package CollectionsFramework.Lists.ArrayList;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class list {
+public class List {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
 //        Here we didn't need to define the size of the Array it grows Dynamically.

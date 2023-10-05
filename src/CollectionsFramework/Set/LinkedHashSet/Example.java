@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Iterator;
 
-public class example {
+public class Example {
     public static void main(String[] args) {
         // Given an array with duplicate elements
         int[] arr = {1, 4, 5, 5,99,99,8, 6, 6,6, 7,10};
