@@ -1,23 +1,23 @@
 package OOPs.Inheritance.Multilevel;
 
-class animal{
+class Animal{
     void legs()
     {
         System.out.println("I have 4 legs");
     }
 }
-class cow extends animal{
+class Cow extends Animal{
     void food()
     {
         System.out.println("I eat grass");
     }
 }
-class buffalo extends cow{
+class Buffalo extends Cow{
 
 }
-public class multipleLevel {
+public class MultipleLevel {
     public static void main(String[] args) {
-    buffalo b = new buffalo();
+    Buffalo b = new Buffalo();
     b.food();
     b.legs();
     }

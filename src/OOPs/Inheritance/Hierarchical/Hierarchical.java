@@ -8,25 +8,25 @@ class Animal {
 }
 
 //subclass1
-class dog extends Animal {
+class Dog extends Animal {
 void name()
 {
     System.out.println("I am Dog.");
 }
 }
 //subclass2
-class cat extends Animal{
+class Cat extends Animal{
     void name(){
         System.out.println("I am Cat.");
     }
 }
-public class hierarchical {
+public class Hierarchical {
     public static void main(String[] args) {
-    dog d1 = new dog();
+    Dog d1 = new Dog();
     d1.eat();
     d1.name();  //Accessing the name method from the dog class.
 
-    cat c1 = new cat();
+    Cat c1 = new Cat();
     c1.eat();
     c1.name(); //Accessing the name method from the cat class.
     }

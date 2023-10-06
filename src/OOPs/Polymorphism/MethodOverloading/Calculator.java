@@ -1,5 +1,5 @@
 package OOPs.Polymorphism.MethodOverloading;
-class  add {
+class  Add {
 int addNumbers(int a , int b)
 {
     return a+b;
@@ -11,7 +11,7 @@ double addNumbers(double a, double b )
 }
 public class Calculator {
     public static void main(String[] args) {
-    add  a= new add();
+    Add  a= new Add();
     int result1 = a.addNumbers(5,5);
     double result2 = a.addNumbers(5.5,5.5);
     System.out.println("result1 is "+result1);

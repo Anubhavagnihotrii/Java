@@ -37,7 +37,7 @@ class Cow implements Animal, House {
     }
 }
 
-public class multipleInheritance {
+public class MultipleInheritance {
     public static void main(String[] args) {
         Cow c = new Cow();
         c.name();

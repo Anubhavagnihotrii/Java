@@ -1,17 +1,17 @@
-package OOPs.Abstraction;
+package OOPs.Abstraction.UsingInterfaces;
 
-interface mobiles{
+interface Mobiles{
     void apple();
     void redmi();
     void samsung();
 }
-abstract class phones implements mobiles {
+abstract class Phones implements Mobiles {
     @Override
     public void apple() {
         System.out.println("I am First.");
     }
 }
-class myphones extends phones
+class MyPhones extends Phones
 {
 
     @Override
@@ -26,7 +26,7 @@ class myphones extends phones
 }
 public class InterfaceWithAbstractClass {
     public static void main(String[] args) {
-    myphones mp = new myphones();
+    MyPhones mp = new MyPhones();
     mp.apple();
     mp.redmi();
     mp.samsung();

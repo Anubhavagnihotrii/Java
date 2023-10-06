@@ -1,6 +1,6 @@
-package OOPs.Abstraction;
+package OOPs.Abstraction.UsingInterfaces;
 
-interface activity{
+interface Activity{
 
    void sound();
 
@@ -8,7 +8,7 @@ interface activity{
 
     final  int xyz=5;
 }
-class dog implements activity{
+class Dog implements Activity{
     @Override
     public void sound() {
         System.out.println("Dog's Always Bark's");
@@ -21,17 +21,17 @@ class dog implements activity{
 }
 
 
-public class interfacesInJava {
+public class InterfacesInJava {
     public static void main(String[] args) {
-        dog d = new dog();
+        Dog d = new Dog();
         d.sound();
         d.eat();
 
-        System.out.println(activity.xyz);
+        System.out.println(Activity.xyz);
 
 
         Human h1 = new Human();
-        h1.sex();
+        h1.gender();
         h1.sound();
 //       h1.eat();  this wouldn't print anything as we didn't define it in the class Person.
     }
@@ -47,14 +47,14 @@ public class interfacesInJava {
 //The Java compiler adds public and abstract keywords before the interface method. Moreover, it adds public, static and final keywords before data members.
 
 
-interface person extends  activity{
-   void sex();
+interface Person extends  Activity{
+   void gender();
 }
 //The Above is person named Interface which is extending a Voice Interface, So this shows that a one interface can extend the other interface.
-class Human implements person{
+class Human implements Person{
 
     @Override
-    public void sex() {
+    public void gender() {
         System.out.println("I can be MALE FEMALE OTHER");
     }
 
@@ -76,7 +76,7 @@ class Human implements person{
 
 
 /*
-     I can also write  MultiLine comments like this. :(
+     I can also write  MultiLine comments like this. :)
 
  */
 
@@ -86,4 +86,4 @@ class Human implements person{
 //One more thing, There are nested Interfaces too. :(
 
 //we can also declare static methods inside the interface but for that we need to define them too.
-//When the method is static then, we does not need to make the object of the class or instantiate the class we can directly call the function with class name and dot operator and the name of the function.
+//When the method is static then, we do not need to make the object of the class or instantiate the class we can directly call the function with class name and dot operator and the name of the function.

@@ -2,19 +2,19 @@ package OOPs.Inheritance.Single;
 
 //Single OOPs.Inheritance
 
-class animal{
+class Animal{
     void speak()
     {
         System.out.println("Animals have there own language");
     }
 }
-class horse extends  animal
+class Horse extends  Animal
 {
 
 }
-public class inheritanceExample1 {
+public class InheritanceExample1 {
     public static void main(String[] args) {
-    horse h = new horse();
+    Horse h = new Horse();
     h.speak();
     }
 }

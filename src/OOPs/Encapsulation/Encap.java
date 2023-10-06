@@ -36,7 +36,7 @@ class Candidates{
         return sem;
     }
 }
-public class encap {
+public class Encap {
     public static void main(String[] args) {
         Candidates c = new Candidates();
         c.setName("Anubhav");

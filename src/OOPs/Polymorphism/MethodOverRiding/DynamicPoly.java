@@ -5,17 +5,17 @@ class Animal{
         System.out.println("Animal Makes Sound.");
     }
 }
-class  dog extends Animal{
+class  Dog extends Animal{
     @Override
     void makeSound() {
         System.out.println("Dog Barks!");
     }
 }
-public class dynamicpoly {
+public class DynamicPoly {
     public static void main(String[] args) {
 
         Animal a1 = new Animal();
-        Animal a2 = new dog(); //OOPs.Polymorphism: Dog object as an Animal reference
+        Animal a2 = new Dog(); //OOPs.Polymorphism: Dog object as an Animal reference
         a1.makeSound();       // Calls Animal's makeSound
         a2.makeSound();        // Calls Dog's makeSound (runtime polymorphism)
     }

@@ -1,7 +1,7 @@
-package OOPs.Abstraction;
+package OOPs.Abstraction.UsingAbstractKeyword;
 
-abstract class humans{
-    humans()
+abstract class Humans{
+    Humans()
     {
         System.out.println("constructor for human class created");
     }
@@ -12,9 +12,9 @@ abstract class humans{
 //    int x=909;
 }
 
-class krishna extends humans
+class Krishna extends Humans
 {
-    krishna()
+    Krishna()
     {
         System.out.println("constructor for krishna class created");
     }
@@ -24,9 +24,9 @@ class krishna extends humans
     }
 }
 
-public class abstractClassInJava {
+public class AbstractClassInJava {
     public static void main(String[] args) {
-    krishna k = new krishna();
+    Krishna k = new Krishna();
     k.myName();
     k.myAge();
     }
