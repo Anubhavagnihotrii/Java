@@ -1,4 +1,4 @@
-package RotatingArray;
+package BasicPrograms.RotatingArray;
 
 import java.util.ArrayList;
 import java.util.Arrays;

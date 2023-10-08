@@ -1,4 +1,4 @@
-package ReversingNumber;
+package BasicPrograms.ReversingNumber;
 
 public class NumberReverse {
     public static void main(String[] args) {

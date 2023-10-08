@@ -1,6 +1,4 @@
-package RemoveDuplicatesArray;
-
-import java.util.Arrays;
+package BasicPrograms.RemoveDuplicatesArray;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
