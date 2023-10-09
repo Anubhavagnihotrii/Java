@@ -1,4 +1,4 @@
-package BasicPrograms.PlaindromeNumber;
+package BasicPrograms.PalindromeNumber;
 
 import java.util.Scanner;
 
