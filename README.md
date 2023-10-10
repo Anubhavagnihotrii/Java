@@ -11,6 +11,7 @@ Here's a brief overview of the repository structure:
     - `collectionsframework/`: Includes examples and implementations of data structures from the Java Collections Framework.
     - `sorting/`: Contains sorting algorithm implementations.
     - `searching/`: Includes searching algorithm implementations.
+    - `basicprograms/`: Contains code related to basic Programs.
 - `README.md`: You are here! This document provides an overview of the repository and its contents.
 
 ## Getting Started
