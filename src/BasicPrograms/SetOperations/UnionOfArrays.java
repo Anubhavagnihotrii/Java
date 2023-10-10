@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 // Define a class named unionOfArrays
-public class unionOfArrays {
+public class UnionOfArrays {
     public static void main(String[] args) {
         // Create two ArrayLists 'arr' and 'brr' with integer elements
         ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(0,1,2,3,4,5,6,7,8));
