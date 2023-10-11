@@ -7,10 +7,11 @@ Welcome to my Java Learning Repository! This repository is a place where I have 
 Here's a brief overview of the repository structure:
 
 - `src/`: This directory contains the Java source code files for various Java programs and exercises.
-    - `OOPs/`: Contains code related to Object-Oriented Programming (OOP) concepts.
-    - `CollectionsFramework/`: Includes examples and implementations of data structures from the Java Collections Framework.
-    - `Sorting/`: Contains sorting algorithm implementations.
-    - `Searching/`: Includes searching algorithm implementations.
+    - `oops/`: Contains code related to Object-Oriented Programming (OOP) concepts.
+    - `collectionsframework/`: Includes examples and implementations of data structures from the Java Collections Framework.
+    - `sorting/`: Contains sorting algorithm implementations.
+    - `searching/`: Includes searching algorithm implementations.
+    - `basicprograms/`: Contains code related to basic Programs.
 - `README.md`: You are here! This document provides an overview of the repository and its contents.
 
 ## Getting Started
