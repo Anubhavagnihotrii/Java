@@ -10,7 +10,7 @@ public class WordOccurrenceCount {
 
     public static void main(String[] args) {
         // Input string containing words
-        String inputString = "This This is IS Awesome Awesome Dude dude";
+        String inputString = "This This is IS Awesome Awesome Awesome Dude dude";
 
         // Split the string into words by space
         String[] words = inputString.split(" ");
