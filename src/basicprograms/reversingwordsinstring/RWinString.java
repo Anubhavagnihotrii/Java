@@ -11,6 +11,6 @@ public class RWinString {
             {
                 result.add(c[i]);
             }
-            System.out.println(result.toString());
+            System.out.println(result);
         }
 }
