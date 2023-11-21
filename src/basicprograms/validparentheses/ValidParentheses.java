@@ -1,4 +1,4 @@
-package basicprograms;
+package basicprograms.validparentheses;
 import java.util.Stack;
 public class ValidParentheses {
     public static void main(String[] args) {
