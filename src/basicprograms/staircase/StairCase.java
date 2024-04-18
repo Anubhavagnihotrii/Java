@@ -18,6 +18,7 @@ import java.util.Scanner;
                 }
                 System.out.println();
             }
+            sc.close();
         }
     }
 //Enter the value of n
