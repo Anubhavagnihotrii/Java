@@ -1,4 +1,4 @@
-package sorting.countsort;
+package dsa.sorting.countsort;
 
 import java.util.Arrays;
 

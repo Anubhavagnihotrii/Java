@@ -1,4 +1,4 @@
-package sorting.usingmethodsavailableinjava;
+package dsa.sorting.usingmethodsavailableinjava;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package searching.binarysearch;
+package dsa.searching.binarysearch;
 
 public class BinarySearch {
     int binarySearch(int[] arr,int target)

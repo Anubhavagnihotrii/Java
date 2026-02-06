@@ -1,4 +1,4 @@
-package searching.linearsearch;
+package dsa.searching.linearsearch;
 
 public class LinearSearch {
     int linearSearch(int[] arr,int ele)

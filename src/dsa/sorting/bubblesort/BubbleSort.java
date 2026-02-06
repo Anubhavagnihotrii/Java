@@ -1,4 +1,4 @@
-package sorting.bubblesort;
+package dsa.sorting.bubblesort;
 
 
     public class BubbleSort {

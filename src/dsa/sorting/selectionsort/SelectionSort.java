@@ -1,4 +1,4 @@
-package sorting.selectionsort;
+package dsa.sorting.selectionsort;
 
 import java.util.Arrays;
 

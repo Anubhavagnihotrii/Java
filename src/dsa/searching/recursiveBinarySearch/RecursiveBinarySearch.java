@@ -1,4 +1,4 @@
-package searching.recursiveBinarySearch;
+package dsa.searching.recursiveBinarySearch;
 
 public class RecursiveBinarySearch {
     public  static int  recursiveBS(int[] arr, int target, int start, int end){
