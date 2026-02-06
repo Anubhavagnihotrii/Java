@@ -1,0 +1,20 @@
+Strategy Design Pattern
+
+Enables selecting an algorithm's behavior at runtime.
+It defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+
+Here we are encapsulating the algorithm for sending notifications (email, sms, push notification) in separate classes
+that implement a common interface inside a NotificationStrategyContext class by sendNotification method.
+
+Strategy Pattern is useful when:
+- You have multiple algorithms for a specific task and want to switch between them dynamically.
+- You want to avoid conditional statements for selecting algorithms.
+- You want to encapsulate algorithms to make them easier to maintain and extend.
+
+Strategy Pattern promotes the Open/Closed Principle by allowing new strategies to be added without modifying existing code.
+
+Strategy Pattern can be combined with other patterns like Factory Pattern to create strategy instances.
+
+Strategy vs Factory Pattern:
+- Strategy Pattern focuses on selecting an algorithm at runtime.
+- Factory Pattern focuses on creating objects without specifying the exact class of object that will be created.
