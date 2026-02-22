@@ -1,4 +1,4 @@
-package threadsss;
+package threadsss.evenOddExample;
 
 public class EvenThread extends Thread {
     @Override

@@ -1,4 +1,4 @@
-package threadsss;
+package threadsss.evenOddExample;
 
 public class PrintEvenOddThreads {
     public static void main(String[] args) {

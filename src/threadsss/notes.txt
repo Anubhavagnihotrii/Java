@@ -1,0 +1,28 @@
+Thread is the smallest unit of execution within a program.
+
+Threads can be created:
+- By extending Thread
+- By implementing Runnable
+- By implementing Callable (returns a value and can throw exceptions)
+- Using Executors / Thread Pools (more efficient)
+
+- The only difference between Runnable and Callable is Callable returns a value while Runnable doesn't.
+and callable have call() while runnable have run().
+
+Thread Lifecycle:
+- New – Thread object is created, not started.
+- Runnable – Thread is ready, waiting for CPU.
+- Running – Thread is executing its run() method.
+- Blocked / Waiting – Waiting for a lock or notification.
+- Terminated – Thread has finished execution.
+
+Race Condition:
+- Occurs when multiple threads access shared resources simultaneously.
+- Example: count++ is not atomic.
+- Without synchronization, updates can be lost → wrong results.
+
+Synchronization:
+- synchronized keyword ensures only one thread can access a block/method at a time.
+- Locks are per object (instance method) or per class (static method).
+- Helps prevent race conditions.
+- Downside: can reduce performance if overused.
