@@ -15,6 +15,7 @@ public class DaemonThread {
         MyDaemonThreadExample t1 = new MyDaemonThreadExample("thread 1");
         t1.setDaemon(true);
         t1.start();
+        t1.getState();
         System.out.println("I m main thread"+ Thread.currentThread().getName());
     }
 }

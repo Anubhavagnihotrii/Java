@@ -1,0 +1,14 @@
+Ex. There as 1 Notebook and 3 children are trying simultaneously to write something.
+    Definitely there's a chance information won't be proper, so to handle these kind of scenarios
+    we use locks.
+
+
+Locks Types:
+    Intrinsic -> these are built into every object in java.
+                 You don't see them but they're there.
+                 When you are using synchronized keyword, you're using these automatic locks
+    Explicit ->
+                These are more advanced locks you can control yourself
+                using Locks class from java.util.concurrent.locks.
+                Here we explicitly say when to lock and unlock, giving more control
+                over how and when people can write in the notebook.

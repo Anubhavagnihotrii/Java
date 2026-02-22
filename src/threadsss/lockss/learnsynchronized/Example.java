@@ -1,4 +1,4 @@
-package threadsss.learnsynchronized;
+package threadsss.lockss.learnsynchronized;
 
 /*
  * Calc class contains a shared variable 'count'.
