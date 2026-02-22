@@ -1,9 +1,9 @@
-package threadsss.evenOddExample;
+package threadsss.evenOddExample.withoutwaitnotify;
 
-public class OddThread extends Thread {
+public class EvenThread extends Thread {
     @Override
     public void run() {
-        for (int i = 1; i < 30; i += 2) {
+        for (int i = 2; i < 30; i += 2) {
             System.out.println(i);
             try {
                 Thread.sleep(100);
