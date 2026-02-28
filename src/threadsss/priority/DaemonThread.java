@@ -27,3 +27,6 @@ public class DaemonThread {
 //Important rules:
 //  You must call setDaemon(true) before start(). Otherwise, IllegalThreadStateException will be thrown.
 //  Daemon threads should not be used for critical tasks that need to complete.
+
+
+//Daemon thread is stopped automatically (even if it’s running an infinite loop)

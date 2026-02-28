@@ -2,6 +2,7 @@ package designPatterns.behavioural.observer;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.*;
 
 public class Amazon implements Subject{
     List<Observer> observers = new ArrayList<>();
@@ -19,8 +20,18 @@ public class Amazon implements Subject{
 
     @Override
     public void notifyObserver() {
-        for(Observer observer : observers){
-            observer.getNotification(latestPhoneAvailable);
+        ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+        scheduler.scheduleAtFixedRate(()->{
+            for(Observer observer : observers){
+                observer.getNotification(latestPhoneAvailable);
+            }
+        },2,5,TimeUnit.SECONDS);
+        try {
+            scheduler.awaitTermination(25,TimeUnit.SECONDS);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }finally {
+            scheduler.shutdown();
         }
     }
 
